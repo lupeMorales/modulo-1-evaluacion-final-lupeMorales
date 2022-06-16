@@ -5,7 +5,8 @@
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'pages/index'; */
+o */
+@import "pages/index";
 @import "core/reset";
 @import "core/variables";
 @import "components/titles";
@@ -25,14 +26,14 @@
   background-size: cover;
 }
 .hamb {
-  position: relative;
+  position: fixed;
+  z-index: 999;
 }
 .fa-solid {
-  display: fixed;
   position: absolute;
   padding: 10px;
-  left: -150px;
-  top: -45px;
+  left: -140px;
+  top: -165px;
 }
 
 .nav {
@@ -54,14 +55,14 @@
 }
 
 .link:hover {
-  color: #4bb84a;
+  background-color: #0c454b;
 }
 
-.link-signup:before {
+/* .link-signup:before {
   padding-left: 4px;
-  content: "|";
+
   color: white;
-}
+} */
 .logo {
   margin-bottom: 70px;
   margin-top: -75px;
