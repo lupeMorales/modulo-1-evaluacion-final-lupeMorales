@@ -147,7 +147,7 @@ main {
   width: 22ch;
   text-align: center;
 }
-/* *******SHIPMENTS******* */
+/* *******SHIPping******* */
 .shipping {
   display: flex;
   position: relative;
@@ -224,11 +224,35 @@ main {
 
 /* ****FOOTER**** */
 
-/* .footer {
+.footer {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #0c454b;
 }
- */
+.footer h3 {
+  margin-top: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #b6c8c9;
+}
+.link {
+  list-style: none;
+}
+
+.link a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: #b6c8c9;
+}
+.container-social-network i {
+  padding: 10px;
+  color: #b6c8c9;
+  margin-right: 16px;
+  margin-bottom: 60px;
+}
