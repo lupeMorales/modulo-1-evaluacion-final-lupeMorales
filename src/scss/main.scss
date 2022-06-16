@@ -72,7 +72,6 @@
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  /* transform: translateY(65px); */
 }
 .buy-now {
   width: 176px;
@@ -89,7 +88,9 @@
 .a:hover {
   background-color: #ff975a;
 }
-
+.header__text a:hover {
+  background-color: orange;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -187,6 +188,9 @@ main {
   color: #fff;
   margin: auto;
 }
+.shipping a:hover {
+  background-color: $color-spruce;
+}
 /* ***** ENJOY***** */
 .enjoy__container {
   width: 100%;
@@ -233,6 +237,9 @@ main {
   text-decoration: none;
   text-align: center;
   text-transform: capitalize;
+}
+.enjoy__item a:hover {
+  background-color: orange;
 }
 
 /* ****FOOTER**** */
