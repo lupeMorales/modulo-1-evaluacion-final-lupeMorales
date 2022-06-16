@@ -55,3 +55,41 @@ main {
 }
 
 /* *****SERVICES***** */
+.services {
+  width: 100%;
+  height: auto;
+  padding: 40px 47px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 40px;
+  background-color: #f0ebe5;
+}
+
+.services h2 {
+  text-align: center;
+}
+.services span {
+  text-transform: uppercase;
+}
+.article {
+  margin: 0 60px;
+}
+.article .icon {
+  margin-bottom: 45px;
+}
+.article .icon {
+  transform: translateX(40px);
+}
+
+.article .title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  width: 15ch;
+  text-align: center;
+}
+.article .description {
+  font-size: 1.6rem;
+  width: 20ch;
+  text-align: center;
+}
