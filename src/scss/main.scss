@@ -272,15 +272,19 @@ main {
   height: auto;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   background-color: #0c454b;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .footer h3 {
   margin-top: 40px;
   font-size: 2rem;
   font-weight: 600;
   color: #b6c8c9;
+  text-align: center;
 }
 .link {
   display: flex;
@@ -292,7 +296,6 @@ main {
 
 .link a {
   padding: 10px;
-
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 100;
@@ -301,10 +304,6 @@ main {
 .container-social-network i {
   padding: 20px;
   color: #b6c8c9;
-  margin-right: 16px;
+  margin-right: 0px;
   margin-bottom: 60px;
-}
-
-.arrow a {
-  background-color: red;
 }
