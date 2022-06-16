@@ -11,3 +11,47 @@
 @import "components/titles";
 @import "components/article";
 @import "layout/hero";
+
+.hero {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  height: 75vh;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.buy-now {
+  width: 176px;
+  height: 48;
+  padding: 10px;
+  margin-top: 64px;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: $color-spruce;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+/* **OJO CUIDAO CON HOVER*** */
+.a:hover {
+  background-color: #ff975a;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  transform: translateY(65px);
+}
+
+/* *****SERVICES***** */

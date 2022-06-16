@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <!--   <header class="header">
       <span><i class="fa-solid fa-bars"></i></span>
       <nav class="nav">
         <ul class="list">
@@ -39,36 +39,40 @@
         </ul>
       </nav>
       <img class="logo" src="./assets/images/logo.png" alt="loco Open Spaces" />
-    </header>
+    </header> -->
 
     <main>
       <section class="hero">
-        <img src="" alt="" />
-        <h1 class="main-title">Disfruta creando espacios</h1>
-        <a href="#">comprar ahora</a>
+        <div class="hero__text">
+          <h1 class="main-title">Disfruta creando espacios</h1>
+          <a class="buy-now" href="#">comprar ahora</a>
+        </div>
       </section>
+
       <section class="services">
-        <h2>volverser organizado se siente mejor con open spaces</h2>
+        <h2>
+          Volverser organizado se siente mejor con <span> open spaces</span>
+        </h2>
         <include
           src="./partials/article.html"
           icon="./assets/images/icon_1.png"
-          title="lo que necesitas"
-          subtitle="una linea de productos diseñados para
+          title="Lo que necesitas"
+          subtitle="Una linea de productos diseñados para
         todos tus espacio"
         ></include>
 
         <include
           src="./partials/article.html"
           icon="./assets/images/icon_2.png"
-          title="materias primas sustentables"
-          subtitle="todos los productos con materias primas sustentables"
+          title="Materias primas sustentables"
+          subtitle="Todos los productos con materias primas sustentables"
         ></include>
 
         <include
           src="./partials/article.html"
           icon="./assets/images/icon_3.png"
-          title="guía"
-          subtitle="soporte y asesoramiento para ayudarte con tu objetivo"
+          title="Guía"
+          subtitle="Soporte y asesoramiento para ayudarte con tu objetivo"
         ></include>
       </section>
       <section class="shipements">
