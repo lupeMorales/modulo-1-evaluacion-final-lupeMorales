@@ -16,7 +16,7 @@
   display: flex;
   width: 100%;
   min-width: 320px;
-  height: 75vh;
+  height: 65vh;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -24,14 +24,55 @@
   background-position: center;
   background-size: cover;
 }
+.hamb {
+  position: relative;
+}
+.fa-solid {
+  display: fixed;
+  position: absolute;
+  padding: 10px;
+  left: -150px;
+  top: -45px;
+}
 
+.nav {
+  display: none;
+  /*  @media all and (min-width: 768px) {
+    display: block;
+  } */
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.link {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #4bb84a;
+}
+
+.link-signup:before {
+  padding-left: 4px;
+  content: "|";
+  color: white;
+}
+.logo {
+  margin-bottom: 70px;
+  margin-top: -75px;
+}
 .header__text {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  transform: translateY(65px);
+  /* transform: translateY(65px); */
 }
 .buy-now {
   width: 176px;
@@ -182,3 +223,14 @@ main {
   font-size: 1.4rem;
   text-align: center;
 }
+
+/* ****FOOTER**** */
+
+/* .footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #0c454b;
+}
+ */
