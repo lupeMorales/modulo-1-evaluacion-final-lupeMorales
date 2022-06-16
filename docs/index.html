@@ -3,25 +3,167 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
+    <title>Open Spaces</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      src="https://kit.fontawesome.com/6c4bd50c50.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-    <div class="page">
-      
+    <header class="header">
+      <div class="hamb"><i class="fa-solid fa-bars fa-2x"></i></div>
+      <img class="logo" src="./assets/images/logo.png" alt="logo Open Spaces" />
+      <nav class="nav">
+        <ul class="list">
+          <li class="list-item">
+            <a class="link" href="#">Productos</a>
+          </li>
+          <li class="list-item">
+            <a class="link" href="#">Colecciones</a>
+          </li>
+          <li class="list-item">
+            <a class="link" href="#">Tienda</a>
+          </li>
+
+          <li class="list-item">
+            <a class="link" href="#">Inicio</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__text">
+        <h1 class="main-title">Disfruta creando espacios</h1>
+        <a class="buy-now" href="#">comprar ahora</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="services">
+        <div class="services_text">
+          <h2>
+            Volverse organizado se siente mejor con <span> open spaces</span>
+          </h2>
+        </div>
+
+        <article class="article">
+          <img class="icon" src="./assets/images/icon_1.png" alt="icon services" />
+          <h3 class="title">Lo que necesitas</h3>
+          <p class="description">Una linea de productos diseñados para
+        todos tus espacio</p>
+        </article>
 
 
-      
+        <article class="article">
+          <img class="icon" src="./assets/images/icon_2.png" alt="icon services" />
+          <h3 class="title">Materias primas sustentables</h3>
+          <p class="description">Todos los productos con materias primas sustentables</p>
+        </article>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
 
-    <div>hola</div>
+        <article class="article">
+          <img class="icon" src="./assets/images/icon_3.png" alt="icon services" />
+          <h3 class="title">Guía</h3>
+          <p class="description">Soporte y asesoramiento para ayudarte con tu objetivo</p>
+        </article>
+
+      </section>
+
+      <section class="shipping">
+        <img
+          class="shippin__icon"
+          src="./assets/images/icon_4.png"
+          alt="icon services"
+        />
+        <h2 class="title-white">Envío gratis garantizado</h2>
+        <p class="shipping__info">Envío gratis en compras desde 100"</p>
+        <a class="link-buy" href="#">Comprar ahora</a>
+      </section>
+
+        <section class="enjoy">
+        <div class="enjoy__container">
+          <div class="enjoy__item">
+            <h2>Disfruta creando espacios</h2>
+            <p>Una línea de productos diseñados para todos tus espacios</p>
+            <a class="buy-now__enjoy" href="#">comprar ahora</a>
+
+          </div>
+
+          <div  class="enjoy__item"><img
+           
+            src="./assets/images/creando-espacios.jpg"
+            alt="metal storage baskets in the bathroom with towels and toilet paper"
+          /> </div>
+
+        
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__nav">
+        <h3>Tienda</h3>
+        <nav>
+          <ul>
+            <li class="link"><a href="#">Producots</a></li>
+            <li class="link"><a href="#">Cajoneras</a></li>
+            <li class="link"><a href="#">Para toda la casa</a></li>
+            <li class="link"><a href="#">Habitaciones</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__nav">
+        <h3>Nosotros</h3>
+        <nav>
+          <ul>
+            <li class="link"><a href="#">Nuestra guia</a></li>
+            <li class="link"><a href="#">Nuestro diseño</a></li>
+            <li class="link"><a href="#">Nuestra historia</a></li>
+            <li class="link"><a href="#">Ayuda</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__nav">
+        <h3>Contacto</h3>
+        <nav>
+          <ul>
+            <li class="link">
+              <a href="mailto:morales.lupe@gmail.com" target="_blank"
+                >ayuda@openspaces.com</a
+              >
+            </li>
+            <li class="link"><a href="#">Socios</a></li>
+          </ul>
+
+          <div class="container-social-network">
+            <a
+              href="https://www.linkedin.com/in/guadalupe-morales-carmona-817245226/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in icon-social-network fa-2x"></i
+            ></a>
+
+            <a href="https://www.instagram.com/yampodog/">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+
+            <a href="https://twitter.com/lacanellyatope" target="_blank"
+              ><i class="fa-brands fa-twitter icon-social-network fa-2x"></i
+            ></a>
+
+            <a></a>
+          </div>
+        </nav>
+      </div>
+      <a href="./index.html"> <i class="fa-solid fa-arrow-up"></i></a>
+    </footer>
   </body>
 </html>
