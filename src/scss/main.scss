@@ -84,7 +84,7 @@
   text-decoration: none;
   text-transform: capitalize;
 }
-/* **OJO CUIDAO CON HOVER*** */
+
 .a:hover {
   background-color: #ff975a;
 }
@@ -127,7 +127,7 @@ main {
   max-width: 250px;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   text-align: center;
 }
 .article .icon {
@@ -249,7 +249,7 @@ main {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   background-color: #0c454b;
 }
@@ -260,18 +260,23 @@ main {
   color: #b6c8c9;
 }
 .link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   list-style: none;
+  line-height: 0;
 }
 
 .link a {
   padding: 10px;
+
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 100;
   color: #b6c8c9;
 }
 .container-social-network i {
-  padding: 10px;
+  padding: 20px;
   color: #b6c8c9;
   margin-right: 16px;
   margin-bottom: 60px;

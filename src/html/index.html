@@ -15,156 +15,18 @@
       src="https://kit.fontawesome.com/6c4bd50c50.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="shortcut icon" href="./assets/images/favicon.png">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
 
   <body>
-    <header class="header">
-      <div class="hamb"><i class="fa-solid fa-bars fa-2x"></i></div>
-      <img class="logo" src="./assets/images/logo.png" alt="logo Open Spaces" />
-      <nav class="nav">
-        <ul class="list">
-          <li class="list-item">
-            <a class="link" href="#">Productos</a>
-          </li>
-          <li class="list-item">
-            <a class="link" href="#">Colecciones</a>
-          </li>
-          <li class="list-item">
-            <a class="link" href="#">Tienda</a>
-          </li>
+    <include src="./partials/header.html"></include>
 
-          <li class="list-item">
-            <a class="link" href="#">Inicio</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="header__text">
-        <h1 class="main-title">Disfruta creando espacios</h1>
-        <a class="buy-now" href="#">comprar ahora</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="services">
-        <div class="services_text">
-          <h2>
-            Volverse organizado se siente mejor con <span> open spaces</span>
-          </h2>
-        </div>
-
-        <include
-          src="./partials/article.html"
-          icon="./assets/images/icon_1.png"
-          title="Lo que necesitas"
-          subtitle="Una linea de productos diseñados para
-        todos tus espacio"
-        ></include>
-
-        <include
-          src="./partials/article.html"
-          icon="./assets/images/icon_2.png"
-          title="Materias primas sustentables"
-          subtitle="Todos los productos con materias primas sustentables"
-        ></include>
-
-        <include
-          src="./partials/article.html"
-          icon="./assets/images/icon_3.png"
-          title="Guía"
-          subtitle="Soporte y asesoramiento para ayudarte con tu objetivo"
-        ></include>
-      </section>
-
-      <section class="shipping">
-        <img
-          class="shippin__icon"
-          src="./assets/images/icon_4.png"
-          alt="icon services"
-        />
-        <h2 class="title-white">Envío gratis garantizado</h2>
-        <p class="shipping__info">Envío gratis en compras desde 100"</p>
-        <a class="link-buy" href="#">Comprar ahora</a>
-      </section>
-
-        <section class="enjoy">
-        <div class="enjoy__container">
-          <div class="enjoy__item">
-            <h2>Disfruta creando espacios</h2>
-            <p>Una línea de productos diseñados para todos tus espacios</p>
-            <a class="buy-now__enjoy" href="#">comprar ahora</a>
-
-          </div>
-
-          <div  class="enjoy__item"><img
-           
-            src="./assets/images/creando-espacios.jpg"
-            alt="metal storage baskets in the bathroom with towels and toilet paper"
-          /> </div>
-
-        
-      </section>
+    <main class="main">
+      <include src="./partials/services.html"></include>
+      <include src="./partials/shipping.html"></include>
+      <include src="./partials/enjoy.html"></include>
     </main>
-
-    <footer class="footer">
-      <div class="footer__nav">
-        <h3>Tienda</h3>
-        <nav>
-          <ul>
-            <li class="link"><a href="#">Producots</a></li>
-            <li class="link"><a href="#">Cajoneras</a></li>
-            <li class="link"><a href="#">Para toda la casa</a></li>
-            <li class="link"><a href="#">Habitaciones</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="footer__nav">
-        <h3>Nosotros</h3>
-        <nav>
-          <ul>
-            <li class="link"><a href="#">Nuestra guia</a></li>
-            <li class="link"><a href="#">Nuestro diseño</a></li>
-            <li class="link"><a href="#">Nuestra historia</a></li>
-            <li class="link"><a href="#">Ayuda</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="footer__nav">
-        <h3>Contacto</h3>
-        <nav>
-          <ul>
-            <li class="link">
-              <a href="mailto:morales.lupe@gmail.com" target="_blank"
-                >ayuda@openspaces.com</a
-              >
-            </li>
-            <li class="link"><a href="#">Socios</a></li>
-          </ul>
-
-          <div class="container-social-network">
-            <a
-              href="https://www.linkedin.com/in/guadalupe-morales-carmona-817245226/"
-              target="_blank"
-              ><i class="fa-brands fa-linkedin-in icon-social-network fa-2x"></i
-            ></a>
-
-            <a href="https://www.instagram.com/yampodog/">
-              <i class="fa-brands fa-instagram fa-2x"></i>
-            </a>
-
-            <a href="https://twitter.com/lacanellyatope" target="_blank"
-              ><i class="fa-brands fa-twitter icon-social-network fa-2x"></i
-            ></a>
-
-            <a></a>
-          </div>
-        </nav>
-      </div>
-      <a href="./index.html"> <i class="fa-solid fa-arrow-up"></i></a>
-    </footer>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
