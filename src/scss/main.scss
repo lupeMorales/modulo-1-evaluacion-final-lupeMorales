@@ -279,12 +279,16 @@ main {
     justify-content: center;
   }
 }
+.footer__nav {
+  width: 100%;
+}
 .footer h3 {
   margin-top: 40px;
+  margin-left: 18px;
   font-size: 2rem;
   font-weight: 600;
   color: #b6c8c9;
-  text-align: center;
+  text-align: left;
 }
 .link {
   display: flex;
@@ -292,6 +296,7 @@ main {
   align-items: flex-start;
   list-style: none;
   line-height: 0;
+  text-align: left;
 }
 
 .link a {
@@ -300,10 +305,19 @@ main {
   font-size: 1.4rem;
   font-weight: 100;
   color: #b6c8c9;
+  text-align: left;
 }
 .container-social-network i {
   padding: 20px;
-  color: #b6c8c9;
+  color: #fff;
   margin-right: 0px;
   margin-bottom: 60px;
+}
+.arrow {
+  position: relative;
+}
+.arrow img {
+  position: absolute;
+  top: -50px;
+  right: -120px;
 }
