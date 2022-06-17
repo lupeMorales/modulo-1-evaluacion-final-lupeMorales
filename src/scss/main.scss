@@ -48,7 +48,7 @@ o */
   display: none;
   @media all and (min-width: 1200px) {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     top: 60px;
     left: 100px;
     z-index: 999;
@@ -109,8 +109,6 @@ o */
   background-color: $color-spruce;
   text-decoration: none;
   text-transform: capitalize;
-  @media all and (min-width: 768px) {
-  }
 }
 
 .a:hover {
@@ -149,6 +147,15 @@ main {
 }
 .services span {
   text-transform: uppercase;
+}
+
+.container-articules {
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
 }
 .article {
   display: flex;
@@ -313,6 +320,9 @@ main {
   font-weight: 600;
   color: #b6c8c9;
   text-align: left;
+  @media all and (min-width: 768px) {
+    margin-left: 5px;
+  }
 }
 .link {
   display: flex;
@@ -346,3 +356,6 @@ main {
     top: -100px;
   }
 }
+/* .arrow img:hover {
+  transform: scale(1);
+} */
