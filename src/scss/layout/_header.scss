@@ -12,19 +12,16 @@
 }
 .hamb {
   position: fixed;
+  display: block;
   z-index: 999;
+  color: #0c454b;
+  top: 5%;
+  left: 5%;
 }
 
 .fa-solid {
-  position: absolute;
-  padding: 10px;
-  left: -140px;
-  top: -300px;
   color: #0c454b;
-  @media all and (min-width: 768px) {
-    left: -320px;
-    top: -280px;
-  }
+
   @media all and (min-width: 1200px) {
     display: none;
   }
