@@ -14,13 +14,13 @@
   position: fixed;
   display: block;
   z-index: 999;
-  color: #0c454b;
+  color: $color-spruce;
   top: 5%;
   left: 5%;
 }
 
 .fa-solid {
-  color: #0c454b;
+  color: $color-spruce;
 
   @media all and (min-width: 1200px) {
     display: none;
@@ -51,11 +51,11 @@
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  color: #0c454b;
+  color: $color-spruce;
 }
 
 .link-nav:hover {
-  background-color: #b6c8c9;
+  background-color: $color-light_grey;
   transform: scale(1.2);
 }
 
@@ -100,10 +100,10 @@
   }
 }
 .a:hover {
-  background-color: #ff975a;
+  background-color: $color-coral;
 }
 .header__text a:hover {
-  background-color: orange;
+  background-color: $color-coral;
 }
 main {
   display: flex;

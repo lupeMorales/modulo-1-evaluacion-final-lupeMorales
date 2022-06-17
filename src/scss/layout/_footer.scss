@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: right;
   align-items: center;
-  background-color: #0c454b;
+  background-color: $color-spruce;
 }
 .footer__container {
   @media all and (min-width: 768px) {
@@ -27,7 +27,7 @@
   margin-left: 5px;
   font-size: 2rem;
   font-weight: 600;
-  color: #b6c8c9;
+  color: $color-light_grey;
   text-align: left;
   @media all and (min-width: 768px) {
     margin-left: 5px;
@@ -45,7 +45,7 @@
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 100;
-  color: #b6c8c9;
+  color: $color-light_grey;
   text-align: left;
 }
 .container-social-network i {

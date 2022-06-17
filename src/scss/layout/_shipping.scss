@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ff975a;
+  background-color: $color-coral;
 }
 
 .shipping__icon {
@@ -43,5 +43,5 @@
   margin: auto;
 }
 .shipping a:hover {
-  background-color: $color-spruce;
+  color: $color-spruce;
 }
