@@ -39,13 +39,20 @@ o */
     left: -300px;
     top: -150px;
   }
+  @media all and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .nav {
   display: none;
-  /*  @media all and (min-width: 768px) {
-    display: block;
-  } */
+  @media all and (min-width: 1200px) {
+    display: inline-block;
+    position: fixed;
+    top: 60px;
+    left: 100px;
+    z-index: 999;
+  }
 }
 .list {
   display: flex;
@@ -55,12 +62,14 @@ o */
 
 .link {
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
+  text-decoration: none;
+  color: #0c454b;
 }
 
 .link:hover {
-  background-color: #0c454b;
+  background-color: #b6c8c9;
 }
 
 .logo {
