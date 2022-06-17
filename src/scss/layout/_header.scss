@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   min-width: 320px;
-  height: 65vh;
+  height: 100vh;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   position: absolute;
   padding: 10px;
   left: -140px;
-  top: -165px;
+  top: -300px;
   color: #0c454b;
   @media all and (min-width: 768px) {
     left: -300px;
@@ -63,8 +63,9 @@
 }
 
 .logo {
-  margin-bottom: 50px;
-  margin-top: -25px;
+  position: absolute;
+  top: 20px;
+
   @media all and (min-width: 768px) {
   }
 }

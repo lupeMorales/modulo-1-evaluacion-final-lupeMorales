@@ -19,7 +19,12 @@
   flex-grow: 0;
   margin: auto;
 }
-
+.shipping__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .title-white {
   font-weight: 600;
   color: #fff;

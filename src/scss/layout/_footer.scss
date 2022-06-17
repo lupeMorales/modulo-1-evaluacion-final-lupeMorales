@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: right;
-  align-items: flex-end;
+  align-items: center;
   background-color: #0c454b;
 }
 .footer__container {
@@ -59,7 +59,7 @@
 .arrow img {
   position: absolute;
   top: -50px;
-  right: 20px;
+  left: 100px;
   @media all and (min-width: 768px) {
     top: -100px;
   }
