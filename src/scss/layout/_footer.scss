@@ -55,17 +55,11 @@
   margin-bottom: 60px;
 }
 .arrow {
-  position: relative;
+  display: block;
+  margin-left: 75%;
+  margin-bottom: 10%;
 }
-.arrow img {
-  position: absolute;
-  top: -50px;
-  left: 80px;
-  @media all and (min-width: 768px) {
-    top: -70px;
-    left: 300px;
-  }
-}
+
 .arrow img:hover {
   transform: scale(1.2);
 }
