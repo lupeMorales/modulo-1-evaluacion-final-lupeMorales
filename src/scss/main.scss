@@ -29,6 +29,7 @@ o */
   position: fixed;
   z-index: 999;
 }
+
 .fa-solid {
   position: absolute;
   padding: 10px;
@@ -42,6 +43,9 @@ o */
   @media all and (min-width: 1200px) {
     display: none;
   }
+}
+.nav-ham {
+  display: none;
 }
 
 .nav {
@@ -306,7 +310,7 @@ main {
     margin: auto;
     column-gap: 70px;
   }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     column-gap: 200px;
   }
 }
@@ -315,7 +319,7 @@ main {
 }
 .footer h3 {
   margin-top: 40px;
-  margin-left: 18px;
+  margin-left: 5px;
   font-size: 2rem;
   font-weight: 600;
   color: #b6c8c9;
@@ -328,7 +332,7 @@ main {
   display: flex;
   list-style: none;
   line-height: 0;
-  text-align: left;
+  width: max-content;
 }
 
 .link a {
@@ -356,6 +360,6 @@ main {
     top: -100px;
   }
 }
-/* .arrow img:hover {
-  transform: scale(1);
-} */
+.arrow img:hover {
+  transform: scale(1.2);
+}
