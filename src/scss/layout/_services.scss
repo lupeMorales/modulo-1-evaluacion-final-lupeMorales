@@ -1,0 +1,60 @@
+.services {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 40px;
+  background-color: #f0ebe5;
+  place-items: center;
+}
+
+.services_text {
+  width: 85%;
+  min-width: 280px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+.services span {
+  text-transform: uppercase;
+}
+
+.container-articules {
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+}
+.article {
+  display: flex;
+  margin: 0 60px;
+  max-width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.article .icon {
+  width: 90px;
+  max-width: 90px;
+  margin: auto;
+}
+
+.article .title {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 15ch;
+  text-align: center;
+}
+.description {
+  font-size: 1.6rem;
+  width: 22ch;
+  text-align: center;
+}
