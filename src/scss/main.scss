@@ -230,11 +230,12 @@ main {
   grid-auto-flow: column;
   grid-auto-columns: 50px;
   background-color: #f0ebe5;
+
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr;
     grid-template-rows: 340px 475px;
   }
-  @media all and (min-width: 120px) {
+  @media all and (min-width: 1200px) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
