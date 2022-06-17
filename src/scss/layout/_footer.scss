@@ -13,6 +13,7 @@
     flex-direction: row;
     margin: auto;
     column-gap: 70px;
+    padding-top: 30px;
   }
   @media all and (min-width: 1200px) {
     column-gap: 200px;
@@ -59,9 +60,10 @@
 .arrow img {
   position: absolute;
   top: -50px;
-  left: 100px;
+  left: 80px;
   @media all and (min-width: 768px) {
-    top: -100px;
+    top: -70px;
+    left: 300px;
   }
 }
 .arrow img:hover {
