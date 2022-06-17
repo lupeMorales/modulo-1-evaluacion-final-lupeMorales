@@ -272,6 +272,7 @@ main {
   height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: #0c454b;
   @media all and (min-width: 768px) {
@@ -292,8 +293,8 @@ main {
 }
 .link {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  /*  justify-content: center;
+  align-items: center; */
   list-style: none;
   line-height: 0;
   text-align: left;
