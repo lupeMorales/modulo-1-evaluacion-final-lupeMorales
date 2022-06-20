@@ -1,0 +1,36 @@
+.open-space {
+  width: 100%;
+  background-color: $color-spruce;
+}
+@media all and (min-width: 768px) {
+  .open-space {
+    background-color: $color-coral;
+  }
+}
+
+.open-space__text {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+@media all and (min-width: 768px) {
+  .open-space__text {
+    flex-direction: row;
+    gap: 20px;
+    align-items: baseline;
+  }
+}
+.open-space h4 {
+  font-size: 2 rem;
+  color: white;
+  margin-bottom: 15px;
+}
+.open-space a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
