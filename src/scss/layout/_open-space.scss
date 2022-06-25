@@ -10,10 +10,11 @@
 
 .open-space__text {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 90%;
   margin: 0 auto;
-  padding-top: 20px;
+  justify-content: center;
+  height: auto;
 }
 @media all and (min-width: 768px) {
   .open-space__text {
@@ -26,6 +27,9 @@
   font-size: 2 rem;
   color: white;
   margin-bottom: 15px;
+  @media all and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 .open-space a {
   display: block;
@@ -33,4 +37,7 @@
   color: white;
   text-decoration: none;
   margin-bottom: 15px;
+  @media all and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
