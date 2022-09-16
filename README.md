@@ -1,7 +1,7 @@
 
 ![OpenSpaces ](https://github.com/lupeMorales/modulo-1-evaluacion-final-lupeMorales/blob/main/src/images/logo.png?raw=true)
 
-# OPEN SPACES <span> | </span>  <a href="http://beta.adalab.es/modulo-2-evaluacion-final-lupeMorales/" target="_blank">   Demo </a><span> | </span>
+# OPEN SPACES <span> | </span>  <a href="https://lupemorales.github.io/open-spaces/" target="_blank">   Demo </a><span> | </span>
 
 <p>Open Spaces es una landing web creada como proyecto para la evaluación final del módulo de maquetación en Adalab. Se trata de un diseño responsive que funciona correctamente en los distintos dispositivos.  
 En la ejecución del proyecto he puesto en práctica flexbox y grid layout así como trabajar en partials con el preprocesador de CSS Sass.</p>
